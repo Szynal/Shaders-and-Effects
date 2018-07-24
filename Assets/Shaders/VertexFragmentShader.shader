@@ -9,12 +9,7 @@
 		SubShader
 	{
 
-		Tags
-			{
-				"Queue" = "Transparent"
-				"IgnoreProjector" = "True"
-				"RenderType" = "Transparent"
-			}
+		Tags{ "Queue" = "Geometry" }
 
 		ZWrite Off
 		Blend SrcAlpha OneMinusSrcAlpha
